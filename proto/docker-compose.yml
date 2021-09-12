@@ -1,0 +1,9 @@
+version: '3'
+services:
+  proto:
+    command: ./proto/protoc.sh
+    build:
+      context: .
+      dockerfile: DockerfileProto
+    volumes:
+      - ../:/proto

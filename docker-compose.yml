@@ -1,0 +1,21 @@
+version: '3'
+services:
+  server:
+    command: ./server.sh
+    build:
+      context: .
+      dockerfile: DockerfileServer
+    volumes:
+      - ./server:/go/src/grpc-web-react-hooks
+    ports:
+      - "9090:9090"
+  client:
+    command: [sh, -c, cd /client && npm install && npm run dev]
+    build:
+      context: .
+      dockerfile: DockerfileClient
+    volumes:
+      - ./next-client:/client
+      - /next-client/node_modules
+    ports:
+      - "3000:3000"
