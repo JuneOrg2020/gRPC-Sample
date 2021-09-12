@@ -1,6 +1,6 @@
 ## Overview
 
-This App can share messages on board in multiple users by gRPC.<br>
+This app allows multiple users to share messages in real time.<br>
 I created this App as sample due to study gRPC.<br>
 
 ## Techniques
@@ -28,12 +28,12 @@ I created this App as sample due to study gRPC.<br>
 
 1.  git clone
 ```terminal
-git clone git@github.com:JuneOrg2020/
+git clone git@github.com:JuneOrg2020/gRPC-Sample.git
 ```
 
 2.  Move directory
 ```terminal
-cd 
+cd gRPC-Sample
 ```
 
 3. Activate Docker
@@ -44,11 +44,12 @@ docker-compose up
 4. Access to http://localhost:3000
 
 ## Image
- Top <br>
-<img src="https://user-images.githubusercontent.com/64642177/131006036-abece885-b393-444d-a439-5045a5206834.png" width=600><br>
- Register <br>
-<img src="https://user-images.githubusercontent.com/64642177/131006095-a99a33f4-5704-4cbe-aa3e-01c88e0aba04.png" width=600><br>
- Search <br>
-<img src="https://user-images.githubusercontent.com/64642177/131006127-17d0c0b0-d2c7-4457-8859-1a8049aa674a.png" width=600><br>
-
-
+ Input message <br>
+<img src="https://user-images.githubusercontent.com/64642177/132992981-b0825085-9f5f-467a-9d77-b6cbeb144038.png" width=600><br>
+ Message was posted <br>
+<img src="https://user-images.githubusercontent.com/64642177/132992985-72c8db3a-a40c-44fb-a935-9616639bd817.png" width=600><br>
+ You can rotate and frame the message  <br>
+<img src="https://user-images.githubusercontent.com/64642177/132992988-465c07db-cc3d-4170-a8a4-01a8a005da8c.png" width=600><br>br
+<br>
+<br>
+If you are using two browsers, you can see that the above operations are shared in real time.
