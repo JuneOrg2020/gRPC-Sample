@@ -49,7 +49,7 @@ docker-compose up
  Message was posted <br>
 <img src="https://user-images.githubusercontent.com/64642177/132992985-72c8db3a-a40c-44fb-a935-9616639bd817.png" width=600><br>
  You can rotate and frame the message  <br>
-<img src="https://user-images.githubusercontent.com/64642177/132992988-465c07db-cc3d-4170-a8a4-01a8a005da8c.png" width=600><br>br
+<img src="https://user-images.githubusercontent.com/64642177/132992988-465c07db-cc3d-4170-a8a4-01a8a005da8c.png" width=600><br>
 <br>
 <br>
 If you are using two browsers, you can see that the above operations are shared in real time.
